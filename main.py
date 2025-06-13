@@ -6,7 +6,7 @@ import yt_dlp
 from keep_alive import keep_alive
 
 BOT_TOKEN = os.getenv("7949313597:AAE-Eyl31mY7JfXWvxVbNuN10FxfljMGRLE")
-bot = telebot.TeleBot(7949313597:AAE-Eyl31mY7JfXWvxVbNuN10FxfljMGRLE)
+bot = telebot.TeleBot("7949313597:AAE-Eyl31mY7JfXWvxVbNuN10FxfljMGRLE")
 
 # Store search queries, page info, and message IDs for each user
 user_searches = {}
