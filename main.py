@@ -5,7 +5,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import yt_dlp
 from keep_alive import keep_alive
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("7949313597:AAE-Eyl31mY7JfXWvxVbNuN10FxfljMGRLE")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Store search queries, page info, and message IDs for each user
